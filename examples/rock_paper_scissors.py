@@ -13,6 +13,7 @@ def save_results( w, t, l):
     text_file.write( str(w) + "," + str(t) + "," + str(l))
     text_file.close()
 
+
 #welcome message
 results = load_results()
 wins = int(results[0])
